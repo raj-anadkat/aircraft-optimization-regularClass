@@ -5,7 +5,7 @@ SAE Aero design Regular Class Take-Off and Scoring Performance Estimation
 
 The code starts with importing the following paramters:
 
-Spans ranging from 60-120 at an interval of 10 inches to reduce the computation time and easily locate the
+Spans ranging from 60-120 at a step of 10 inches to reduce the computation time and easily locate the
 global optimum in a vast domain.
 
 Varied Root Chords, Tip Chords and Rectangular Percentages are selected such that the respective planform falls in the
@@ -21,7 +21,6 @@ span and the resulting increase in tail moment arm and tail area.
 %% Planform Selection %%
 
 The solver gets inputs from the excel database having aerodynamic coefficients of multiple design points obtained from the vortex lattice method solver implemented in the matlab code (will commit soon) for a chosen airfoil S1223 RTL in this case. 
-* (feka hai)
 
 The solver then calculates the take off distance for the empty weight of that aircraft configuration
 If the takeoff distance is less than 100 feet, it increments payload by 0.01 lbs in the loop until the take 
