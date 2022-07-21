@@ -1,4 +1,4 @@
-# aircraft-optimization-regularClass
+# aircraft-optimization-regularClass for 2019-2022 Old ruleset
 SAE Aero design Regular Class Take-Off and Scoring Performance Estimation
 
 %% Inputs %%
@@ -33,9 +33,6 @@ Planforms are then filtered based on the payload lifting capacity keeping in min
 Top planform configurations from each Span set are then selected on which CFD analysis is done for accurate results.
 Score being the fitness function is calculated for each planform to determine the Score trend due to variation in
 span since it is in the demoninator of the scoring equation.
-
-Thus the Global Optimum is found where the score maximizes for a given span and Aspect Ratio and the Best planform
-is Selected.
 
 
 %% Ball Configurations %% (brute force method)
